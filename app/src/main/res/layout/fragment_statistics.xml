@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".StatisticsFragment">
+
+    <TextView
+        android:id="@+id/statisticsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/statistics_header"
+        android:textColor="@color/text_color"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/stats_num_of_trainings_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lato"
+        android:gravity="center_horizontal"
+        android:text="@string/stats_num_of_trainings_desc"
+        android:textColor="@color/text_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/num_of_trainings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/stats_minutes_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lato"
+        android:gravity="center_horizontal"
+        android:text="@string/stats_minutes_desc"
+        android:textColor="@color/text_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/congratulationsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36sp"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="@string/congratulations_motivation"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/party_emoji" />
+
+</LinearLayout>

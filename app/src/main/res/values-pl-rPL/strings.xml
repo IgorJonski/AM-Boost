@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_training">Wybierz swój poranny trening:</string>
+    <string name="difficulty_easy">Łatwy</string>
+    <string name="difficulty_medium">Średni</string>
+    <string name="difficulty_challenging">Trudny</string>
+    <string name="settings_header">Ustawienia</string>
+    <string name="settings_desc1">Ta aplikacja obsługuje język angielski oraz polski.</string>
+    <string name="settings_desc2">Aby zmienić język wystarczy zrobić to w ustawieniach telefonu i zrestartować aplikację!</string>
+    <string name="settings_desc3">Możesz również włączyć \"Tryb ciemny\" urządzenia i zobaczyć efekt!</string>
+    <string name="statistics_header">Osiągnięcia</string>
+    <string name="stats_num_of_trainings_desc">Łączna ilość ukończonych treningów:</string>
+    <string name="stats_minutes_desc">Daje to w sumie:</string>
+    <string name="congratulations_motivation">Gratulacje, trzymaj tak dalej!</string>
+    <string name="dont_give_up">Nie poddawaj się!</string>
+    <string name="you_can_do_this">Uda Ci się!</string>
+    <string name="time_left_for_exercise">Pozostały czas na bieżące ćwiczenie:</string>
+    <string name="total_time_left">Łącznie pozostało:</string>
+    <string name="alert_dialog_title">Czy na pewno chcesz wyjść?</string>
+    <string name="alert_dialog_message">Jeśli opuścisz trening teraz to stracisz bieżący postęp. Czy na pewno chcesz wyjść?</string>
+    <string name="alert_dialog_answer_negative">Nie</string>
+    <string name="alert_dialog_answer_positive">Tak</string>
+    <string name="congratulations_done">Gratulacje!</string>
+    <string name="you_just_finished_your_daily_training">Ukończyłeś swój codzienny trening.</string>
+    <string name="finish_back_to_menu">Powrót do menu głównego</string>
+    <string name="home">Treningi</string>
+    <string name="statistics">Osiągnięcia</string>
+    <string name="settings">Ustawienia</string>
+    <string name="balancing">Utrzymywanie równowagi</string>
+    <string name="crunches">Brzuszki</string>
+    <string name="flutter_kicks">Nożyce</string>
+    <string name="frog_jumps">Wyskoki</string>
+    <string name="jumping_jacks">Pajacyki</string>
+    <string name="push_ups">Pompki</string>
+    <string name="running_in_place">Bieg w miejscu</string>
+    <string name="squats">Przysiady</string>
+    <string name="stretching">Rozciąganie</string>
+</resources>
